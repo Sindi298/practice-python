@@ -1,0 +1,6 @@
+print("hello sindi")
+print("hello"+"sindi")
+print("hello" + "sindi")
+print("hello " + "sindi")
+print("hello" + " " + "sindi")
+print("hello " + "sindi")
