@@ -14,9 +14,9 @@ print(4 // 2)
 print(2 ** 3)
 print(5 + 2 * 3 - 1 + 10 / 5)
 
-weight = int(input("enter weight in kg: "))
-height = float(input("enter height in m: "))
+weight = input("enter weight in kg: ")
+height = input("enter height in m: ")
 
-BMI = weight/(height**2)
+BMI = int(weight)/float(height)**2
 
-print("Body mass index is: ",BMI)
+print(int(BMI))
