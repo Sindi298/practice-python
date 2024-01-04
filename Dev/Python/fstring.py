@@ -7,3 +7,5 @@ print("My name is: ", name, "I am ", age, "years old", "my height is ",height, "
 # if you use (,) instead of (+) then you don't have to typecast
 
 print(f"my name is {name}, I am {age} years old, my height is {height} meters")
+
+print(f"my name is {name}, I am {age} years old, my height is {height} meters")
