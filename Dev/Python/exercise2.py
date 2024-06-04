@@ -1,6 +1,6 @@
 numbers = input("enter list of numbers seperated by a space:")
 #20 30 40 50 -5 37 0 -9
-numbers_list = numbers.split() #use the split function to split the numbers. split numbers will be stored in var akanumbers_list
+numbers_list = numbers.split() #use the split function to split the numbers. split numbers will be stored in var aka numbers_list
 #numbers are printed in inverted commas, meaning they are a string literals
 #use for loop with range to change split numbers from string to int
 #if you are not using the function len(), you have to first calculate the list of numbers from input
