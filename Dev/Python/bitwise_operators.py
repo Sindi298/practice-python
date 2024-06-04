@@ -7,7 +7,7 @@ print(a & b)
 #eg: 8 4 2 1 - add base numbers to get binary numbers
 #a = 0 1 0 1
 #b = 0 1 0 0
-#a&b = 0 1 0 0 = 4
+#a&b = 0 1 0 0 = 4 --rules = if both are 1 it will give you 1
 
 print(a | b)
 #a|b = 0 1 0 1 = 5 --rules = gives you 1 of both bits are 1 or if one bit is 1, 0 if both bits are 0
