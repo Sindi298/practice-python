@@ -11,6 +11,9 @@ b = 5
   If tags are of different classes, the objects will not be reused to store a tag of a different class, instead a new 
    object will be created with its own unique object ID for the different tag, with a different class and false will be
   the outcome.
+
+  Therefore the point of Identity operator is to compare the memory address/object id. Thus in print(a is b), the is
+  operator is checking if the object id of (a) is the same as the object id of (b)
 """
 print(a is b) #will return True if class is the same and if object ID is the same
 print(id(a)) #id() function is used to get the object ID of the tag/object
