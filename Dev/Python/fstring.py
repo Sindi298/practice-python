@@ -9,3 +9,4 @@ print("My name is: ", name, "I am ", age, "years old", "my height is ",height, "
 print(f"my name is {name}, I am {age} years old, my height is {height} meters")
 
 print(f"my name is {name}, I am {age} years old, my height is {height} meters")
+print(f"my name is {name}, and i am a student")
