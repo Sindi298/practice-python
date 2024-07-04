@@ -19,4 +19,4 @@ height = input("enter height in m: ")
 
 BMI = int(weight)/float(height)**2
 
-print(int(BMI))
+print("my BMI is:",int(BMI))
