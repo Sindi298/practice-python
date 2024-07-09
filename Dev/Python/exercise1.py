@@ -77,4 +77,4 @@ if(order == "delivery"):
 
 		break;
 else:
-	print("order must be made at the store, goodbye!")
+	print("sorry! order must be made at the store, goodbye!")
