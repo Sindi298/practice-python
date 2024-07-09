@@ -1,7 +1,7 @@
-height = int(input("enter height in meters "))
+height = float(input("enter height in meters "))
 
-if(height >= 3):
-	print("can ride")
+if(height >= 1.5):
+	print("can ride, Please buy token")
 
 	age = int(input("what is your age? "))
 	if (age < 12):
@@ -12,5 +12,5 @@ if(height >= 3):
 		print("Please pay R500")
 
 else:
-	print("Can't ride")
-print("bye")
+	print("Can't ride, Sorry, See you next time!")
+print("Bye!")
