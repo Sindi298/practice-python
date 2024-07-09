@@ -24,3 +24,4 @@ age = int(input("enter your current age: "))
 
 print(f"you have {years*days} days, {years*weeks} weeks and {years*months} months left to live")
 
+ 
