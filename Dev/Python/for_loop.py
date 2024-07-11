@@ -15,4 +15,4 @@ squares = []
 for p in numbers:
 	square = p ** 2
 	squares.append(square)
-print(squares)
+print("The list of squares is:", squares)
