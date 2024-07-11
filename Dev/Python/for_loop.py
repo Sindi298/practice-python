@@ -15,4 +15,4 @@ squares = []
 for p in numbers:
 	square = p ** 2
 	squares.append(square)
-print("The list of squares is:", squares)
+print("The list of squares is:", squares) #this is outside of the for loop, because its not indented.
